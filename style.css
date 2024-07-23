@@ -14,29 +14,28 @@ body {
   h1 {
     font-size: 2.5rem;
     margin: 0;
-    color: aquamarine;
   }
   
   main {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start; /* Align items to the left */
     padding: 2rem;
   }
   
   .overview {
     max-width: 600px;
-    text-align: center;
+    text-align: left; /* Align text to the left */
     margin-bottom: 2rem;
   }
   
   .screenshot {
     margin: 2rem 0;
-    text-align: center;
+    text-align: left; /* Align text to the left */
   }
   
   .screenshot img {
-    max-width: 300px; /* Adjust the maximum width as needed */
+    max-width: 800px; /* Adjust the maximum width as needed */
     width: 100%; /* Ensures the image scales down */
     height: auto;
     border: 2px solid #ffffff;
@@ -46,5 +45,12 @@ body {
   .screenshot p {
     font-size: 1rem;
     margin: 0;
+  }
+
+  .banner {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 1rem;
+    text-align: center;
   }
   
