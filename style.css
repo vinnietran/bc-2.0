@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e2d3c;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: aquamarine;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .overview {
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .screenshot {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .screenshot img {
+    max-width: 300px; /* Adjust the maximum width as needed */
+    width: 100%; /* Ensures the image scales down */
+    height: auto;
+    border: 2px solid #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  .screenshot p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
